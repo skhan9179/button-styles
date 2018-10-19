@@ -13,29 +13,31 @@ div {
 }
 
 .btn {
+  background-color: #333;
 
+  font-size: 1.125rem;
+  color: #fff;
 }
 
-.primary {
-
+.btn-subtle {
+  background-color: #ccc;
 }
 
-.subtle {
+.btn-ghost {
+  border: 3px solid #333;
+  background-color: #fff;
 
+  color: #333;
 }
 
-.ghost {
-
+.btn-warning {
+  background-color: #f33;
 }
 
-.warning {
-
+.btn-small {
+  font-size: .875rem;
 }
 
-.small {
-
-}
-
-.big {
-
+.btn-big {
+  font-size: 1.5rem;
 }
