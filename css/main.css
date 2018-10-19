@@ -13,25 +13,49 @@ div {
 }
 
 .btn {
+  display: inline-block;
+  padding: .48em .9em;
+
   background-color: #333;
+  border-radius: 8px;
 
   font-size: 1.125rem;
   color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .btn-subtle {
   background-color: #ccc;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+}
+
 .btn-ghost {
-  border: 3px solid #333;
+  border-width: 3px;
+  border-color: #333;
+  border-style: solid;
+
   background-color: #fff;
 
   color: #333;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+}
+
 .btn-warning {
   background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
 
 .btn-small {
